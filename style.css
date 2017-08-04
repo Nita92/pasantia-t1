@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+} 
+
+#s1{
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+
+#s2{
+    height: 200px;
+    width: 100%;
+
+}
+
+#s3{
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+#s3 h3{
+    border: white solid 5px;
+    padding: 10px;
+    display: inline-block;
+}
+.bg-s1{
+    background-image: url("images/t1-1.jpg");
+}
+
+.bg-s3{
+    background-image: url("images/t1-2.jpg");
+}
