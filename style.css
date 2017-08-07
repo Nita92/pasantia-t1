@@ -1,77 +1,122 @@
+@font-face {
+    font-family: big-john;
+    src: url(fonts/big-john.otf);
+}
 
+@font-face {
+    font-family: slim-john;
+    src: url(fonts/slim-john.otf);
+}
 
-hr{
+@font-face {
+    font-family: amble;
+    src: url(fonts/amble.ttf);
+}
+p {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: "amble";
+}
+
+hr {
     width: 40px;
 }
 
-p{
-    font-size: 10px;
+h1, h2{
+    font-family: "big-john";
 }
 
-#section0{
+.hr--black {
+    border-color: black;
+}
+
+.glyphicon {
+    font-size: 20px;
+    padding-left: 20px;
+}
+.text--centered {
+    text-align: center;
+} 
+
+.section0 {
     height: 500px;
     width: 100%;
     color: white;
     padding-top: 10px;
 }
-
-#section0 h1 {
+.section0__bg {
+    background-image: url("images/t1-1.jpg");
+    background-size: cover;
+}
+.section0 h1 {
     margin-top: 0;
 }
 
-#section1{
+.section1 {
     padding-top: 150px;
 }
 
-#mouse{
+.mouse {
     width: 30px;
     padding-top: 130px;
     filter: brightness(0) invert(1);
 }
 
-#section2{
+.section2 {
     height: 250px;
     width: 100%;
     padding-top: 50px;
 
 }
 
-#section3{
+.section3 {
     height: 250px;
     width: 100%;
     color: white;
     padding-top: 75px;
 }
-#section3 h3{
+.section3 h3 {
     border: white solid 3px;
     padding: 15px 40px;
     display: inline-block;
 }
 
-.section0__bg{
-    background-image: url("images/t1-1.jpg");
-    background-size: cover;
-}
-
-.glyphicon{
-    font-size: 20px;
-    padding-left: 20px;
-}
-.text--centered{
-    text-align: center;
-} 
-.hr--black{
-    border-color: black;
-}
-
-.mouse-icon{
-    background-image: url("images/mouse-icon.png");
-    height: 20px;
-    width: 20px;
-    display: block;
-}
-.section3__bg{
+.section3__bg {
     background-image: url("images/t1-2.jpg");
     background-size: cover;
 }
 
+.section4 {
+    height: 1000px;
+    padding-top: 50px;
+}
+
+.section4 h4 {
+    border: black solid 3px;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+ul {
+    margin: 40px 0;
+}
+li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+a {
+    color: black;
+}
+.active {
+    font-weight: bold;
+}
+
+.grid{
+    padding: 10px;
+    width: 270px;
+}
