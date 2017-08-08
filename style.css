@@ -1,3 +1,5 @@
+/* fix vertical alignment */
+
 @font-face {
     font-family: big-john;
     src: url(fonts/big-john.otf);
@@ -16,7 +18,7 @@ p {
     font-size: 16px;
     font-weight: lighter;
     font-family: "amble";
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 hr {
@@ -28,11 +30,12 @@ h1, h2{
     margin-bottom: 40px;
 }
 
+
 .hr--black {
     border-color: black;
 }
 
-.glyphicon {
+.section0 .glyphicon {
     font-size: 20px;
     padding-left: 20px;
 }
@@ -60,7 +63,7 @@ h1, h2{
 
 .mouse {
     width: 30px;
-    padding-top: 350px;
+    padding-top: 300px;
     filter: brightness(0) invert(1);
 }
 
@@ -139,3 +142,86 @@ a {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
+.section7 {
+    margin: 80px 0px;
+}
+.team {
+    position: relative;
+     display: block;
+     max-width: 1170px;
+     margin: 0 auto;
+}
+
+.team img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.team1, .team2, .team3, .team4 {
+    width: 270px;
+    float: left;
+    margin: 10px;
+}
+
+.team1{
+    position: relative;
+}
+
+.link-icon{
+    position: absolute;
+    top: 5%;
+    right: 15px;
+}
+.team1-container {
+    position: absolute;
+    top: 80%;  
+    right: 0;
+    left: 0; 
+}
+
+.team1 p, .team1 h5 {
+    color: white;
+    margin: 0px 0px;
+}
+.team4 {
+    border: black solid 1px;
+    width: 270px;
+    height: 360px;
+    padding-top: 60px;
+}
+
+.team p {
+    font-size: 20px;
+    font-family: "big-john";
+}
+
+.team4 h4 {
+    border: black solid 3px;
+    display: inline-block;
+    padding: 10px 60px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.section8 {
+    position: relative;
+}
+
+.section8 .glyphicon {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    display: block;
+    color: #fff;
+    font-size: 60px;
+
+}
+
+
