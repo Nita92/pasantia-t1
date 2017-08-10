@@ -262,15 +262,19 @@ ol.carousel-indicators li.active {
   margin: 0;
   border-radius: 50%;
   border: 0;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
+  padding: 0px;
   background: lightgray;
 }
 
 ol.carousel-indicators li.active {
   background: orangered;
 } 
-
+ol, ul {
+    margin-top: 0;
+    margin-bottom: -50px;
+}
 .section10__bg {
     background-image: url("images/t1-10.jpg");
     background-size: cover;
